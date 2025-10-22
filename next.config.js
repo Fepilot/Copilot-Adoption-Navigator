@@ -5,8 +5,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/Copilot-Adoption-Navigator',
-  assetPrefix: '/Copilot-Adoption-Navigator/',
+  basePath: process.env.NODE_ENV === 'production' ? '/Copilot-Adoption-Navigator' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/Copilot-Adoption-Navigator/' : '',
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
