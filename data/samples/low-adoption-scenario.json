@@ -1,0 +1,33 @@
+{
+  "name": "Low Adoption Scenario",
+  "description": "Organization with poor seat assignment and low user activation rates",
+  "seatAssignmentRate": 45,
+  "activeUsersPercent_28d": 25,
+  "suggestionAcceptanceRate": 18,
+  "promptsPerActiveDay": 3.2,
+  "timeToFirstUseDays": 45,
+  "trainingCompletionRate": 20,
+  "chatToInlineRatio": 0.8,
+  "repoCoveragePercent": 15,
+  "ideDistribution": {
+    "VSCode": 70,
+    "IntelliJ": 25,
+    "Other": 5
+  },
+  "languagesDistribution": {
+    "JavaScript": 40,
+    "Python": 30,
+    "Java": 20,
+    "Other": 10
+  },
+  "enterprisePolicyReady": false,
+  "networkRestrictionsPresent": true,
+  "securityFindingsFlagged": false,
+  "dataLossPreventionBlockers": false,
+  "regionOrIndustry": "Financial Services",
+  "orgSize": "large",
+  "weeklyActiveUsers": 12,
+  "codeCompletionLines": 850,
+  "chatInteractions": 45,
+  "averageSessionDuration": 15
+}
