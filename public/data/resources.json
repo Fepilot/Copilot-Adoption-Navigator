@@ -1,0 +1,300 @@
+{
+  "resources": [
+    {
+      "id": "seat-assignment-strategy",
+      "title": "Strategic Seat Assignment for Maximum ROI",
+      "category": "Onboarding",
+      "summary": "Optimize Copilot license distribution by targeting high-impact developers and teams with clear success criteria.",
+      "primaryLinks": [
+        "https://docs.github.com/en/copilot/managing-copilot/managing-copilot-for-your-organization",
+        "https://github.blog/2023-10-04-how-to-build-an-enterprise-copilot-program/"
+      ],
+      "tags": ["licensing", "roi", "targeting", "pilot"],
+      "actions": [
+        {
+          "label": "Identify senior engineers and code reviewers for priority assignment",
+          "link": "https://docs.github.com/en/copilot/managing-copilot/managing-copilot-for-your-organization#managing-copilot-seats",
+          "estimatedEffort": "S"
+        },
+        {
+          "label": "Target teams with repetitive coding patterns",
+          "link": "https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/",
+          "estimatedEffort": "M"
+        },
+        {
+          "label": "Create pilot program with measurable success criteria",
+          "link": "https://docs.github.com/en/copilot/quickstart",
+          "estimatedEffort": "L"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "title": "GitHub Copilot Enterprise Adoption Guide",
+          "section": "Seat Assignment Strategy",
+          "page": 12,
+          "url": "https://github.blog/2023-10-04-how-to-build-an-enterprise-copilot-program/"
+        }
+      ],
+      "priority": 90
+    },
+    {
+      "id": "user-onboarding-program",
+      "title": "Comprehensive User Onboarding and Training",
+      "category": "Onboarding",
+      "summary": "Structured onboarding program to reduce time-to-value and increase user activation rates.",
+      "primaryLinks": [
+        "https://docs.github.com/en/copilot/quickstart",
+        "https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/"
+      ],
+      "tags": ["training", "activation", "best-practices", "documentation"],
+      "actions": [
+        {
+          "label": "Create interactive tutorials and setup guides",
+          "link": "https://docs.github.com/en/copilot/quickstart",
+          "estimatedEffort": "M"
+        },
+        {
+          "label": "Host hands-on training sessions",
+          "link": "https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/",
+          "estimatedEffort": "L"
+        },
+        {
+          "label": "Set up peer mentoring programs",
+          "link": "https://docs.github.com/en/copilot/configuring-github-copilot",
+          "estimatedEffort": "M"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "title": "Copilot Best Practices Guide",
+          "section": "User Onboarding",
+          "page": 8,
+          "url": "https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/"
+        }
+      ],
+      "priority": 85
+    },
+    {
+      "id": "prompt-engineering-training",
+      "title": "Advanced Prompt Engineering for Better Acceptance Rates",
+      "category": "Prompting",
+      "summary": "Training developers to write effective prompts and comments to improve suggestion quality and acceptance rates.",
+      "primaryLinks": [
+        "https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/",
+        "https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot"
+      ],
+      "tags": ["prompting", "acceptance-rate", "quality", "training"],
+      "actions": [
+        {
+          "label": "Train developers on effective commenting practices",
+          "link": "https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/",
+          "estimatedEffort": "M"
+        },
+        {
+          "label": "Create prompt engineering guidelines",
+          "link": "https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot",
+          "estimatedEffort": "S"
+        },
+        {
+          "label": "Implement prompt review sessions",
+          "link": "https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/",
+          "estimatedEffort": "M"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "title": "Prompt Engineering Best Practices",
+          "section": "Writing Effective Prompts",
+          "page": 15,
+          "url": "https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/"
+        }
+      ],
+      "priority": 80
+    },
+    {
+      "id": "security-compliance-setup",
+      "title": "Enterprise Security and Compliance Configuration",
+      "category": "Security/Compliance",
+      "summary": "Configure security policies, content filtering, and compliance controls for enterprise Copilot deployment.",
+      "primaryLinks": [
+        "https://docs.github.com/en/copilot/managing-copilot/managing-github-copilot-in-your-organization",
+        "https://docs.github.com/en/enterprise-cloud@latest/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-copilot-in-your-enterprise"
+      ],
+      "tags": ["security", "compliance", "policies", "enterprise"],
+      "actions": [
+        {
+          "label": "Configure content exclusion policies",
+          "link": "https://docs.github.com/en/copilot/managing-copilot/managing-github-copilot-in-your-organization#configuring-content-exclusions-for-github-copilot",
+          "estimatedEffort": "M"
+        },
+        {
+          "label": "Set up audit logging and monitoring",
+          "link": "https://docs.github.com/en/enterprise-cloud@latest/admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise",
+          "estimatedEffort": "L"
+        },
+        {
+          "label": "Implement data loss prevention controls",
+          "link": "https://docs.github.com/en/enterprise-cloud@latest/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-copilot-in-your-enterprise",
+          "estimatedEffort": "L"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "title": "Enterprise Security Configuration",
+          "section": "Security and Compliance",
+          "page": 22,
+          "url": "https://docs.github.com/en/copilot/managing-copilot/managing-github-copilot-in-your-organization"
+        }
+      ],
+      "priority": 95
+    },
+    {
+      "id": "network-connectivity-optimization",
+      "title": "Network Configuration and Connectivity Optimization",
+      "category": "Networking",
+      "summary": "Resolve network restrictions and optimize connectivity for reliable Copilot service access.",
+      "primaryLinks": [
+        "https://docs.github.com/en/copilot/troubleshooting-github-copilot",
+        "https://docs.github.com/en/enterprise-server@latest/admin/configuration/configuring-network-settings"
+      ],
+      "tags": ["networking", "connectivity", "firewall", "proxy"],
+      "actions": [
+        {
+          "label": "Configure firewall rules for Copilot endpoints",
+          "link": "https://docs.github.com/en/copilot/troubleshooting-github-copilot#network-connectivity-issues",
+          "estimatedEffort": "S"
+        },
+        {
+          "label": "Set up proxy configuration if required",
+          "link": "https://docs.github.com/en/enterprise-server@latest/admin/configuration/configuring-network-settings",
+          "estimatedEffort": "M"
+        },
+        {
+          "label": "Test connectivity from development environments",
+          "link": "https://docs.github.com/en/copilot/troubleshooting-github-copilot",
+          "estimatedEffort": "S"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "title": "Network Configuration Guide",
+          "section": "Connectivity Requirements",
+          "page": 18,
+          "url": "https://docs.github.com/en/copilot/troubleshooting-github-copilot"
+        }
+      ],
+      "priority": 75
+    },
+    {
+      "id": "usage-analytics-dashboard",
+      "title": "Usage Analytics and ROI Measurement",
+      "category": "Measurement",
+      "summary": "Implement comprehensive analytics to track adoption, usage patterns, and return on investment.",
+      "primaryLinks": [
+        "https://docs.github.com/en/copilot/managing-copilot/reviewing-usage-data-for-github-copilot",
+        "https://github.blog/2023-05-09-github-copilot-usage-data-is-now-available/"
+      ],
+      "tags": ["analytics", "roi", "measurement", "reporting"],
+      "actions": [
+        {
+          "label": "Set up usage data collection and reporting",
+          "link": "https://docs.github.com/en/copilot/managing-copilot/reviewing-usage-data-for-github-copilot",
+          "estimatedEffort": "M"
+        },
+        {
+          "label": "Create ROI measurement framework",
+          "link": "https://github.blog/2023-05-09-github-copilot-usage-data-is-now-available/",
+          "estimatedEffort": "L"
+        },
+        {
+          "label": "Build adoption tracking dashboards",
+          "link": "https://docs.github.com/en/copilot/managing-copilot/reviewing-usage-data-for-github-copilot",
+          "estimatedEffort": "L"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "title": "Usage Analytics Guide",
+          "section": "Measuring Success",
+          "page": 25,
+          "url": "https://docs.github.com/en/copilot/managing-copilot/reviewing-usage-data-for-github-copilot"
+        }
+      ],
+      "priority": 70
+    },
+    {
+      "id": "champion-program",
+      "title": "Copilot Champions and Community Building",
+      "category": "Champions",
+      "summary": "Establish a network of Copilot champions to drive adoption and share best practices across the organization.",
+      "primaryLinks": [
+        "https://github.blog/2023-10-04-how-to-build-an-enterprise-copilot-program/",
+        "https://docs.github.com/en/copilot/overview-of-github-copilot"
+      ],
+      "tags": ["champions", "community", "advocacy", "knowledge-sharing"],
+      "actions": [
+        {
+          "label": "Identify and train Copilot champions",
+          "link": "https://github.blog/2023-10-04-how-to-build-an-enterprise-copilot-program/",
+          "estimatedEffort": "M"
+        },
+        {
+          "label": "Create internal knowledge sharing sessions",
+          "link": "https://docs.github.com/en/copilot/overview-of-github-copilot",
+          "estimatedEffort": "S"
+        },
+        {
+          "label": "Establish feedback collection mechanisms",
+          "link": "https://github.blog/2023-10-04-how-to-build-an-enterprise-copilot-program/",
+          "estimatedEffort": "M"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "title": "Champion Program Guide",
+          "section": "Building Community",
+          "page": 30,
+          "url": "https://github.blog/2023-10-04-how-to-build-an-enterprise-copilot-program/"
+        }
+      ],
+      "priority": 65
+    },
+    {
+      "id": "change-management-strategy",
+      "title": "Organizational Change Management for AI Adoption",
+      "category": "Change Management",
+      "summary": "Structured approach to managing organizational change and addressing concerns about AI-assisted development.",
+      "primaryLinks": [
+        "https://github.blog/2023-10-04-how-to-build-an-enterprise-copilot-program/",
+        "https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot-for-business"
+      ],
+      "tags": ["change-management", "adoption", "communication", "concerns"],
+      "actions": [
+        {
+          "label": "Address developer concerns about AI assistance",
+          "link": "https://github.blog/2023-10-04-how-to-build-an-enterprise-copilot-program/",
+          "estimatedEffort": "M"
+        },
+        {
+          "label": "Create communication strategy for stakeholders",
+          "link": "https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot-for-business",
+          "estimatedEffort": "M"
+        },
+        {
+          "label": "Implement gradual rollout strategy",
+          "link": "https://github.blog/2023-10-04-how-to-build-an-enterprise-copilot-program/",
+          "estimatedEffort": "L"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "title": "Change Management Framework",
+          "section": "Managing AI Adoption",
+          "page": 35,
+          "url": "https://github.blog/2023-10-04-how-to-build-an-enterprise-copilot-program/"
+        }
+      ],
+      "priority": 60
+    }
+  ]
+}

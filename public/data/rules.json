@@ -1,0 +1,299 @@
+{
+  "rules": [
+    {
+      "id": "low-seat-assignment",
+      "resourceId": "seat-assignment-strategy",
+      "conditions": [
+        {
+          "field": "seatAssignmentRate",
+          "operator": "<",
+          "value": 70
+        }
+      ],
+      "weight": 95,
+      "severity": "high",
+      "rationaleTemplate": "Your seat assignment rate of {seatAssignmentRate}% is below the recommended 70% threshold. Focus on strategic seat allocation to maximize impact.",
+      "enabled": true
+    },
+    {
+      "id": "very-low-seat-assignment",
+      "resourceId": "seat-assignment-strategy", 
+      "conditions": [
+        {
+          "field": "seatAssignmentRate",
+          "operator": "<",
+          "value": 50
+        }
+      ],
+      "weight": 100,
+      "severity": "critical",
+      "rationaleTemplate": "Critical: Only {seatAssignmentRate}% seat assignment. Immediate action needed to identify and enable key developers.",
+      "enabled": true
+    },
+    {
+      "id": "low-user-activation",
+      "resourceId": "user-onboarding-program",
+      "conditions": [
+        {
+          "field": "activeUsersPercent_28d",
+          "operator": "<",
+          "value": 60
+        }
+      ],
+      "weight": 90,
+      "severity": "high",
+      "rationaleTemplate": "User activation rate of {activeUsersPercent_28d}% indicates onboarding challenges. Enhanced training and support needed.",
+      "enabled": true
+    },
+    {
+      "id": "very-low-user-activation",
+      "resourceId": "user-onboarding-program",
+      "conditions": [
+        {
+          "field": "activeUsersPercent_28d",
+          "operator": "<",
+          "value": 40
+        }
+      ],
+      "weight": 95,
+      "severity": "critical",
+      "rationaleTemplate": "Critical activation issue: Only {activeUsersPercent_28d}% of users are active. Comprehensive onboarding overhaul required.",
+      "enabled": true
+    },
+    {
+      "id": "low-acceptance-rate",
+      "resourceId": "prompt-engineering-training",
+      "conditions": [
+        {
+          "field": "suggestionAcceptanceRate",
+          "operator": "<",
+          "value": 25
+        }
+      ],
+      "weight": 85,
+      "severity": "high",
+      "rationaleTemplate": "Low acceptance rate of {suggestionAcceptanceRate}% suggests poor suggestion quality. Prompt engineering training needed.",
+      "enabled": true
+    },
+    {
+      "id": "very-low-acceptance-rate",
+      "resourceId": "prompt-engineering-training",
+      "conditions": [
+        {
+          "field": "suggestionAcceptanceRate",
+          "operator": "<",
+          "value": 15
+        }
+      ],
+      "weight": 90,
+      "severity": "critical",
+      "rationaleTemplate": "Critical: {suggestionAcceptanceRate}% acceptance rate indicates fundamental issues with suggestion quality or user training.",
+      "enabled": true
+    },
+    {
+      "id": "slow-time-to-first-use",
+      "resourceId": "user-onboarding-program",
+      "conditions": [
+        {
+          "field": "timeToFirstUseDays",
+          "operator": ">",
+          "value": 14
+        }
+      ],
+      "weight": 70,
+      "severity": "medium",
+      "rationaleTemplate": "Time to first use of {timeToFirstUseDays} days is longer than optimal. Streamlined onboarding needed.",
+      "enabled": true
+    },
+    {
+      "id": "very-slow-time-to-first-use",
+      "resourceId": "user-onboarding-program",
+      "conditions": [
+        {
+          "field": "timeToFirstUseDays",
+          "operator": ">",
+          "value": 30
+        }
+      ],
+      "weight": 80,
+      "severity": "high",
+      "rationaleTemplate": "Excessive time to first use: {timeToFirstUseDays} days. Immediate onboarding process improvements required.",
+      "enabled": true
+    },
+    {
+      "id": "low-training-completion",
+      "resourceId": "user-onboarding-program",
+      "conditions": [
+        {
+          "field": "trainingCompletionRate",
+          "operator": "<",
+          "value": 50
+        }
+      ],
+      "weight": 75,
+      "severity": "medium",
+      "rationaleTemplate": "Training completion rate of {trainingCompletionRate}% is insufficient. More engaging training programs needed.",
+      "enabled": true
+    },
+    {
+      "id": "security-policies-not-configured",
+      "resourceId": "security-compliance-setup",
+      "conditions": [
+        {
+          "field": "enterprisePolicyReady",
+          "operator": "==",
+          "value": false
+        }
+      ],
+      "weight": 100,
+      "severity": "critical",
+      "rationaleTemplate": "Enterprise security policies not configured. This is a critical compliance and security risk.",
+      "enabled": true
+    },
+    {
+      "id": "network-restrictions-present",
+      "resourceId": "network-connectivity-optimization",
+      "conditions": [
+        {
+          "field": "networkRestrictionsPresent",
+          "operator": "==",
+          "value": true
+        }
+      ],
+      "weight": 90,
+      "severity": "high",
+      "rationaleTemplate": "Network restrictions are blocking Copilot access. Immediate network configuration changes needed.",
+      "enabled": true
+    },
+    {
+      "id": "security-findings-flagged",
+      "resourceId": "security-compliance-setup",
+      "conditions": [
+        {
+          "field": "securityFindingsFlagged",
+          "operator": "==",
+          "value": true
+        }
+      ],
+      "weight": 95,
+      "severity": "critical",
+      "rationaleTemplate": "Security findings have been flagged. Address security concerns before expanding deployment.",
+      "enabled": true
+    },
+    {
+      "id": "dlp-blockers-present",
+      "resourceId": "security-compliance-setup",
+      "conditions": [
+        {
+          "field": "dataLossPreventionBlockers",
+          "operator": "==",
+          "value": true
+        }
+      ],
+      "weight": 85,
+      "severity": "high",
+      "rationaleTemplate": "Data loss prevention policies are blocking usage. Review and adjust DLP configurations.",
+      "enabled": true
+    },
+    {
+      "id": "low-repo-coverage",
+      "resourceId": "champion-program",
+      "conditions": [
+        {
+          "field": "repoCoveragePercent",
+          "operator": "<",
+          "value": 30
+        }
+      ],
+      "weight": 60,
+      "severity": "medium",
+      "rationaleTemplate": "Repository coverage of {repoCoveragePercent}% indicates limited adoption spread. Champion program needed.",
+      "enabled": true
+    },
+    {
+      "id": "low-prompts-per-day",
+      "resourceId": "prompt-engineering-training",
+      "conditions": [
+        {
+          "field": "promptsPerActiveDay",
+          "operator": "<",
+          "value": 5
+        }
+      ],
+      "weight": 55,
+      "severity": "medium",
+      "rationaleTemplate": "Low daily prompt usage ({promptsPerActiveDay} per day) suggests users need better engagement strategies.",
+      "enabled": true
+    },
+    {
+      "id": "imbalanced-chat-inline-ratio",
+      "resourceId": "prompt-engineering-training",
+      "conditions": [
+        {
+          "field": "chatToInlineRatio",
+          "operator": ">",
+          "value": 3
+        }
+      ],
+      "weight": 45,
+      "severity": "low",
+      "rationaleTemplate": "High chat-to-inline ratio ({chatToInlineRatio}) may indicate over-reliance on chat. Balance training needed.",
+      "enabled": true
+    },
+    {
+      "id": "no-usage-analytics",
+      "resourceId": "usage-analytics-dashboard",
+      "conditions": [
+        {
+          "field": "weeklyActiveUsers",
+          "operator": "==",
+          "value": 0
+        }
+      ],
+      "weight": 70,
+      "severity": "medium",
+      "rationaleTemplate": "No usage analytics data available. Implement measurement framework to track progress.",
+      "enabled": true
+    },
+    {
+      "id": "large-org-without-champions",
+      "resourceId": "champion-program",
+      "conditions": [
+        {
+          "field": "orgSize",
+          "operator": "==",
+          "value": "large"
+        },
+        {
+          "field": "repoCoveragePercent",
+          "operator": "<",
+          "value": 50
+        }
+      ],
+      "weight": 75,
+      "severity": "medium",
+      "rationaleTemplate": "Large organization with {repoCoveragePercent}% repo coverage needs champion program for scaling adoption.",
+      "enabled": true
+    },
+    {
+      "id": "change-management-needed",
+      "resourceId": "change-management-strategy",
+      "conditions": [
+        {
+          "field": "activeUsersPercent_28d",
+          "operator": "<",
+          "value": 50
+        },
+        {
+          "field": "seatAssignmentRate",
+          "operator": ">",
+          "value": 70
+        }
+      ],
+      "weight": 65,
+      "severity": "medium",
+      "rationaleTemplate": "Good seat assignment ({seatAssignmentRate}%) but low activation ({activeUsersPercent_28d}%) suggests change management challenges.",
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Security Blockers Scenario",
+  "description": "Strong adoption blocked by compliance and network restrictions",
+  "seatAssignmentRate": 95,
+  "activeUsersPercent_28d": 35,
+  "suggestionAcceptanceRate": 45,
+  "promptsPerActiveDay": 12.3,
+  "timeToFirstUseDays": 3,
+  "trainingCompletionRate": 85,
+  "chatToInlineRatio": 1.8,
+  "repoCoveragePercent": 80,
+  "ideDistribution": {
+    "VSCode": 60,
+    "IntelliJ": 35,
+    "Other": 5
+  },
+  "languagesDistribution": {
+    "Java": 40,
+    "C#": 30,
+    "Python": 20,
+    "JavaScript": 10
+  },
+  "enterprisePolicyReady": false,
+  "networkRestrictionsPresent": true,
+  "securityFindingsFlagged": true,
+  "dataLossPreventionBlockers": true,
+  "regionOrIndustry": "Healthcare",
+  "orgSize": "large",
+  "weeklyActiveUsers": 45,
+  "codeCompletionLines": 1200,
+  "chatInteractions": 280,
+  "averageSessionDuration": 25
+}

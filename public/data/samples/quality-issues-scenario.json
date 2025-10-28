@@ -1,0 +1,33 @@
+{
+  "name": "Quality Issues Scenario", 
+  "description": "High usage but low acceptance rate indicating quality problems",
+  "seatAssignmentRate": 85,
+  "activeUsersPercent_28d": 75,
+  "suggestionAcceptanceRate": 12,
+  "promptsPerActiveDay": 8.5,
+  "timeToFirstUseDays": 7,
+  "trainingCompletionRate": 60,
+  "chatToInlineRatio": 4.2,
+  "repoCoveragePercent": 65,
+  "ideDistribution": {
+    "VSCode": 85,
+    "IntelliJ": 10,
+    "Other": 5
+  },
+  "languagesDistribution": {
+    "TypeScript": 45,
+    "JavaScript": 25,
+    "Python": 20,
+    "Go": 10
+  },
+  "enterprisePolicyReady": true,
+  "networkRestrictionsPresent": false,
+  "securityFindingsFlagged": false,
+  "dataLossPreventionBlockers": false,
+  "regionOrIndustry": "Technology",
+  "orgSize": "mid",
+  "weeklyActiveUsers": 125,
+  "codeCompletionLines": 2400,
+  "chatInteractions": 890,
+  "averageSessionDuration": 45
+}
